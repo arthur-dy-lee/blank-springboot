@@ -6,7 +6,13 @@ spring:
     name: blank-springboot
 
 server:
-  port: 8080
+  port: 8081
+
+my:
+  hello:
+    name: "lee"
+    age: 18
+    hometown: "qf"
 
 
 #单独控制某个包下的日志输出级别
