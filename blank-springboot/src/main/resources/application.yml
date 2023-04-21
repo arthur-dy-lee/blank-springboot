@@ -1,0 +1,21 @@
+app:
+  id: jDQUyibXNqElz2PbyivQVGrYbY
+
+spring:
+  application:
+    name: blank-springboot
+
+server:
+  port: 8080
+
+
+#单独控制某个包下的日志输出级别
+#设置整个项目日志输出级别
+logging:
+  #设置一个组
+  group:
+    demo4: arthur.dy.lee
+  level:
+    root: info
+    #com.fs包的日志输出级别为debug
+    demo4: debug
